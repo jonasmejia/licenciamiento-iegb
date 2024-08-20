@@ -1,0 +1,230 @@
+body {
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        /* Aplica la fuente Roboto a todo el cuerpo */
+    }
+
+    h2 {
+        font-weight: bold;
+    }
+
+    .titulo-color {
+        color: #003366;
+    }
+
+    h5 {
+        color: #003366;
+    }
+
+    .borde-texto {
+        border-bottom: 8px solid #003366;
+    }
+    .borde-texto-menu {
+        border-bottom: 5px solid #003366;
+    }
+
+    .menu-active {
+        background-color: #007bff;
+        color: white;
+        border-radius: 4px;
+    }
+
+    .dropdown-item:hover {
+        color: #003366;
+        font-weight: bold;
+        border-left: 2px solid #007bff;
+        /* Borde lateral derecho en azul */
+        padding-left: 15px;
+        /* Espacio entre el texto y el borde */
+        margin-left: 10px;
+        /* Espacio entre los ítems del menú */
+    }
+
+    .bg-instituto {
+        background-color: #003366;
+    }
+
+    /*******SLIDER*******/
+    /* Posicionar los dots a la derecha del carrusel */
+    .owl-carousel .owl-dots {
+        position: absolute;
+        top: -55px;
+        right: 10px;
+        /* Ajusta este valor para acercar o alejar los dots del borde derecho */
+        transform: translateY(-50%);
+        display: flex;
+
+
+        /* Alinea los dots en una columna */
+    }
+
+    .owl-carousel .owl-dot {
+        margin: 5px 0;
+        /* Espaciado entre los dots */
+    }
+
+    .owl-carousel .owl-dot span {
+        width: 12px;
+        height: 12px;
+        background-color: #000;
+        border-radius: 50%;
+        display: block;
+    }
+
+    /* Ocultar la navegación (botones prev/next) */
+    .owl-carousel .owl-nav {
+        display: none;
+    }
+
+    /**Programas item**/
+    .programa-item {
+
+        color: #333;
+        /* Color de texto inicial */
+        /* padding: 10px; */
+        border-radius: 5px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        /* Suaviza el cambio de color */
+    }
+
+    .programa-item:hover {
+        background-color: hsla(199, 100%, 47%, 0.1);
+        color: #003366;
+
+    }
+
+    .programa-item img {
+        width: 100%;
+        /* Ajusta la imagen para que ocupe todo el ancho del contenedor */
+        height: auto;
+        filter: brightness(50%);
+        /* Oscurece la imagen inicialmente */
+        transition: filter 0.5s ease;
+        /* Transición suave para el cambio de brillo */
+    }
+
+    /* Efecto al pasar el mouse */
+    .programa-item:hover img {
+        filter: brightness(100%);
+        /* Restaura la imagen a su brillo original */
+    }
+
+    /***boton del slider */
+    /* Hacer el fondo de los botones del carrusel transparente */
+    .carousel-control-prev,
+    .carousel-control-next {
+        /* background-color: transparent; */
+        /* Fondo transparente */
+        /* border: none; */
+        /* Elimina el borde si es necesario */
+    }
+
+    /* Opcional: Cambiar el color del ícono si es necesario */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        margin: 20px;
+        padding: 30px;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+        background-color:#003366;
+        border-radius:20px;
+        /* Fondo negro semitransparente para el ícono */
+    }
+
+    /** CARGANDO **/
+    /* Estilo para la pantalla de carga */
+    #loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: hsl(210, 69%, 14%, 0.9);
+        /* Fondo oscuro con opacidad */
+        color: white;
+        /* Color del texto */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        /* Asegura que la pantalla de carga esté encima del contenido */
+    }
+
+    /* Estilo para el texto de carga */
+    .loader p {
+        font-size: 1.5em;
+        margin: 0;
+    }
+
+    /***fondo estadistica */
+    .gradient-background2 {
+        margin: 100px 0px;
+        width: 100%;
+        min-height: 300px;
+        /* Ajusta la altura según tus necesidades */
+        background:
+            /* Imagen de fondo */
+            url('../../assets/img/index/fondo-estadistica.jpg') no-repeat center center/cover,
+            /* Color azul semitransparente */
+            rgba(0, 0, 255, 0.5);
+        /* Otros estilos opcionales */
+        
+        background-attachment: fixed;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+
+    }
+    .gradient-background {
+        margin: 70px 0px;
+        width: 100%;
+        min-height: 300px;
+        /* Ajusta la altura según tus necesidades */
+        background-color: #003366;
+        background-attachment: fixed;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+    }
+    .titulo-contador{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .blinking-border {
+       
+        border-bottom: 2px solid transparent; /* Inicialmente sin borde */
+        animation: blink 3s infinite; /* Animación de parpadeo */
+    }
+    
+    @keyframes blink {
+        0% {
+            border-color: transparent; /* Sin borde */
+        }
+        50% {
+            border-color: greenyellow; /* Color del borde (puedes cambiar el color) 007bff */
+        }
+        100% {
+            border-color: transparent; /* Sin borde */
+        }
+    }
+   
+
+    #scrollUp {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none; /* Inicialmente oculto */
+        z-index: 2147483647;
+        background-color: #003366;
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 50%;
+        font-size: 20px;
+        border:1px solid white;
+    }
