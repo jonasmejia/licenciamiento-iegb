@@ -191,12 +191,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center py-4">
-                        <h1 class="fw-bold p-2" style="background-color: #003366; color:white">Matrícula</h1>
+                        <h1 class="fw-bold p-2" style="background-color: #003366; color:white">Procesos de Matrícula</h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb breadcrumb-chevron p-3 rounded-3">
                                 <li class="breadcrumb-item"><a class="link-body-emphasis fw-semibold text-decoration-none" href="/"><i class="fa-solid fa-house"></i> Inicio</a></li>
                                 <li class="breadcrumb-item">Admisión</li>
-                                <li class="breadcrumb-item" aria-current="page">Matrícula</li>
+                                <li class="breadcrumb-item" aria-current="page">Procesos de Matrícula</li>
                             </ol>
                         </nav>
                     </div>
@@ -215,19 +215,19 @@
                         <div class="step">
                             <div class="arrow"></div>
                             <img src="https://img.icons8.com/ios-filled/100/fcbf49/user-group-man-man.png" class="icon" alt="Emphasise Icon">
-                            <div class="step-title" style="color: #fca311;">Enfatizar</div>
+                            <div class="step-title" style="color: #fca311;">Paso 1</div>
                             <div class="step-description">Lorem ipsum dolor sit amet, mea regione diamet principes at.</div>
                         </div>
                         <div class="step">
                             <div class="arrow"></div>
                             <img src="https://img.icons8.com/ios-filled/100/20c997/organization.png" class="icon" alt="Define Icon">
-                            <div class="step-title" style="color: #198754;">Definir</div>
+                            <div class="step-title" style="color: #198754;">Paso 2</div>
                             <div class="step-description">Lorem ipsum dolor sit amet, mea regione diamet principes at.</div>
                         </div>
                         <div class="step">
                             <div class="arrow"></div>
                             <img src="https://img.icons8.com/ios-filled/100/00bcd4/idea.png" class="icon" alt="Ideate Icon">
-                            <div class="step-title" style="color: #007bff;">Idear</div>
+                            <div class="step-title" style="color: #007bff;">Paso 3</div>
                             <div class="step-description">Lorem ipsum dolor sit amet, mea regione diamet principes at.</div>
                         </div>
                     </div>
@@ -236,19 +236,19 @@
                         <div class="step">
                             <div class="arrow"></div>
                             <img src="https://img.icons8.com/ios-filled/100/fcbf49/user-group-man-man.png" class="icon" alt="Emphasise Icon">
-                            <div class="step-title" style="color: #fca311;">Enfatizar</div>
+                            <div class="step-title" style="color: #fca311;">Paso 4</div>
                             <div class="step-description">Lorem ipsum dolor sit amet, mea regione diamet principes at.</div>
                         </div>
                         <div class="step">
                             <div class="arrow"></div>
                             <img src="https://img.icons8.com/ios-filled/100/20c997/organization.png" class="icon" alt="Define Icon">
-                            <div class="step-title" style="color: #198754;">Definir</div>
+                            <div class="step-title" style="color: #198754;">Paso 5</div>
                             <div class="step-description">Lorem ipsum dolor sit amet, mea regione diamet principes at.</div>
                         </div>
                         <div class="step">
                             <div class="arrow"></div>
                             <img src="https://img.icons8.com/ios-filled/100/00bcd4/idea.png" class="icon" alt="Ideate Icon">
-                            <div class="step-title" style="color: #007bff;">Idear</div>
+                            <div class="step-title" style="color: #007bff;">Paso 6</div>
                             <div class="step-description">Lorem ipsum dolor sit amet, mea regione diamet principes at.</div>
                         </div>
                     </div>
@@ -267,7 +267,7 @@
                         </div>
                         <div class="cuadrito">
                             <img src="https://img.icons8.com/ios-filled/100/094888/user-group-man-man.png" alt="Collaborate">
-                            <h5>Datos</h5>
+                            <h5>Documentos 2</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
